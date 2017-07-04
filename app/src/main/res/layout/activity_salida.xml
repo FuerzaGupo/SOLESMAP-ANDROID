@@ -4,6 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.home.example.sqllogin.Salida">
+    tools:context="com.home.example.sqllogin.Salida"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETALLE"
+        android:textSize="24dp"
+        android:layout_marginStart="31dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/ingdetalle"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="31dp" />
+
+    <EditText
+        android:id="@+id/ingdetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="INGRESE DETALLE"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="95dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="16dp" />
+
+    <EditText
+        android:id="@+id/ingplata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="INGRESE MONTO eje 15.50"
+        android:layout_marginEnd="18dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="18dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRECIO"
+        android:textSize="24dp"
+        android:layout_marginStart="40dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btnguardar"
+        android:layout_marginTop="119dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="119dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/detalle"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:onClick="GuardarDatos"
+        android:layout_marginStart="26dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/egresoText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView8"
+        android:layout_marginLeft="26dp" />
+
+    <EditText
+        android:id="@+id/egresoText"
+        android:layout_width="175dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="EGRESO"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="51dp"
+        app:layout_constraintRight_toRightOf="@+id/btnguardar"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintLeft_toRightOf="@+id/textView8"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="51dp"
+        tools:layout_editor_absoluteY="423dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
