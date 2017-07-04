@@ -27,17 +27,19 @@ public class Menu extends AppCompatActivity {
 
 
         miCaja = (EditText) findViewById(R.id.texte);
-        miSalida = (TextView) findViewById(R.id.texto);
+        //miSalida = (TextView) findViewById(R.id.texto);
         boton = (Button) findViewById(R.id.btn);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String miNombre = null;
-                miNombre = miCaja.getText().toString();
-                miSalida.setText(miNombre);
+                    Intent intent = new Intent(Menu.this,Principal.class);
+                    intent.putExtra("Info",miCaja.getText().toString());
+                    startActivity(intent);
 
-            }
+                }
+
+
         });
 
 
