@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SQlLogin</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+
+    <string name="text_Tab">INGRESAR A LOS CONTACTOS</string>
+
+    <string name="text_register">Registro</string>
+    <string name="error_message_name">Introduzca el nombre completo</string>
+    <string name="error_message_email">Ingrese un email</string>
+    <string name="error_message_age">Enter</string>
+    <string name="error_message_password">Introdusca contraseña</string>
+    <string name="success_message">Registro exitoso</string>
+    <string name="text_not_member">CREAR CUENTA</string>
+    <string name="text_already_member">¿Ya eres usuario? Iniciar sesión</string>
+    <string name="error_email_exists">El Email ya existe</string>
+    <string name="error_password_match">La contraseña no coincide</string>
+    <string name="error_valid_email_password">Correo o contraseña Incorrecto</string>
+    <string name="text_member">Iniciar sesión</string>
+    <string name="title_activity_sdgfscg">Micc</string>
+    <string name="title_activity_user">Usuario</string>
+    <string name="action_settings">Salir</string>
+    <string name="action_about">About de </string>
+    <string name="welcome">BIENVENIDo</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab">SolesMAP</string>
+    <string name="title_activity_about">About</string>
+    <string name="foto">foto</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_principal">SOLESMAP</string>
+    <string name="title_activity_secundario">Control de Ingresos Y Egresos</string>
+
+    <string name="tesorero">Modo tesorero</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tesorero">Tesorero</string>
+
+    <string name="title_tesorero">Modo Tesorero</string>
+    <string name="nombre_organizacion">Nombre Organizacion</string>
+    <string name="ingreso">Fecha de ingreso</string>
+    <string name="salida">Fecha de salida</string>
+    <string name="registrar">registrar</string>
+
+
+</resources>
