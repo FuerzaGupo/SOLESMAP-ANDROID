@@ -25,7 +25,10 @@
             android:name=".Principal"
             android:label="@string/title_activity_principal"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Tesorero"></activity>
+        <activity android:name=".Tesorero" />
+        <activity android:name=".Ingreso" />
+        <activity android:name=".Salida" />
+        <activity android:name=".Historial"></activity>
     </application>
 
 </manifest>

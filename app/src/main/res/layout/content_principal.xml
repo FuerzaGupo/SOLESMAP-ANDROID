@@ -10,10 +10,29 @@
 
     <TextView
         android:id="@+id/numero"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:textSize="24dp"
+        android:textAlignment="center"
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="82dp"
-        android:layout_marginTop="81dp" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="181dp" />
+
+    <TextView
+        android:id="@+id/nuestro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USTED TIENE $"
+        android:textSize="24dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignBaseline="@+id/numero"
+        android:layout_alignBottom="@+id/numero"
+        android:layout_toLeftOf="@+id/numero"
+        android:layout_toStartOf="@+id/numero" />
 </RelativeLayout>
